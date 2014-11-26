@@ -1,0 +1,23 @@
+<paquet
+	prefix="ajax_chosen"
+	categorie="navigation"
+	version="0.1.0"
+	etat="test"
+	compatibilite="[3.0.17;3.0.*]"
+	logo=""
+	documentation=""
+>
+
+	<nom>Ajax Chosen</nom>
+
+	<auteur lien='http://vertige.org'>Michel @ Vertige ASBL</auteur>
+
+	<licence>GNU/GPL</licence>
+
+  <necessite nom="chosen" />
+
+  <lib nom="ajax-chosen" lien="https://github.com/meltingice/ajax-chosen/archive/master.zip" />
+
+  <pipeline nom="jquery_plugins" inclure="ajax_chosen_pipelines.php" />
+
+</paquet>
