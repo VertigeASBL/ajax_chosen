@@ -13,8 +13,8 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 function ajax_chosen_jquery_plugins ($scripts) {
 
-    $scripts[] = find_in_path('lib/ajax-chosen/lib/ajax-chosen.min.js');
-    $scripts[] = find_in_path('javascript/spip_ajax_chosen.js');
+    $scripts[] = 'lib/ajax-chosen/lib/ajax-chosen.min.js';
+    $scripts[] = 'javascript/spip_ajax_chosen.js';
 
     return $scripts;
 }
