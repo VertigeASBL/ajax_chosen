@@ -14,8 +14,8 @@
 
 	<licence>GNU/GPL</licence>
 
-  <!-- Ne fonctionne plus avec les versions du plugin chosen >= 1.6.0 ! -->
-  <necessite nom="chosen" compatibilite="];1.6.0[" />
+  <!-- Ne fonctionne plus avec les versions du plugin chosen >= 1.0.6 ! -->
+  <necessite nom="chosen" compatibilite="];1.0.6[" />
 
   <lib nom="ajax-chosen" lien="https://github.com/meltingice/ajax-chosen/archive/master.zip" />
 
