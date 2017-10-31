@@ -1,6 +1,9 @@
 Ajax Chosen
 ===========
 
+> **Déprécié, ne fonctionne plus avec les nouvelles versions de chosen. On peut utiliser le plugin sélecteur générique comme remplacement…**
+
+
 Un plugin pour intégrer le code de meltingince [ajax-chosen](https://github.com/meltingice/ajax-chosen) dans SPIP.
 
 Pour l'activer sur une saisie `select`, il suffit de lui ajouter la classe `ajax-chosen`.
